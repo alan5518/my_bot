@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/alan-ubu/dev_ws/build/serial_motor_demo",
+        "/home/alan-ubu/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages",
+        "/home/alan-ubu/dev_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/alan-ubu/dev_ws/build/serial_motor_demo",
+        "/home/alan-ubu/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages",
+        "/home/alan-ubu/dev_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
