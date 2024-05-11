@@ -1,5 +1,9 @@
 # Hestia
 
+## REFFER
+- all code was refferd from joshnewans repo
+- reffer https://www.youtube.com/watch?v=OWeLUSzxMsw&list=PLunhqkrRNRhYAffV8JDiFOatQXuU-NnxT for all relavant information
+- https://github.com/joshnewans/articubot_one.git
 
 ## Commands used
 
@@ -12,8 +16,11 @@
 
 
 
-### Robot dimensions
+### Robot details
 
+- ROS distro used is humble
+- robot control using teleop not joystick
+- camera and ball tracking is not done
 - Wheel separation 26
 - Dia 9
 
