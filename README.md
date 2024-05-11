@@ -5,14 +5,16 @@ Commands used
 
 Hestia ssh
 
-AJC ----- ssh hestia@192.168.94.1
-               ssh hestia@Hestia.local
+ssh hestia@192.168.94.1
+ssh hestia@Hestia.local
+
 
 
 Robot dimensions
 
 Wheel separation 26
 Dia 9
+
 
 
 Firewall disable
