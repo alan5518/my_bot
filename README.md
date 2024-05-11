@@ -128,7 +128,7 @@
 
 
 
-### Lidar launch/run files
+### Lidar launch/run files ----> install rplidar package ----> I used 1.12
 
       ros2 launch rplidar_ros rplidar.launch.py
       
@@ -138,9 +138,13 @@
 
 
 
-### Encoder cmds  ---->for testing encoders and motors
+### Encoder cmds  ---->for testing encoders and motors  -----> uplode Ros_arduino_bridge to the arduino https://github.com/joshnewans/ros_arduino_bridge/tree/main
 
       pyserial-miniterm -e /dev/ttyUSB0 57600
+
+- install pyserial
+
+- commands ---> e for encoder val, r to reset, o for open loop control, m for close loop control
 
 - ros2 run serial_motor_demo driver --ros-args -p serial_port:=/dev/tty/ACM0 -p baud_rate:=57600 loop_rate:=30 encoder_cpr:=3450
 
