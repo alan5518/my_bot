@@ -25,7 +25,7 @@
 
 
 
-### Simulation launch files 
+### Simulation launch files
 
 -ros2 launch my_bot launch_sim.launch.py
 
@@ -49,7 +49,20 @@ rviz2 -d src/my_bot/config/sim.rviz
 
 
 
+## for SLAM and Navigation in simulation use :
+   
+    - ros2 launch my_bot launch_sim.launch.py world:=src/my_bot/worlds/obstacles.world
+
+### instead of :
+
+    - ros2 launch my_bot launch_robot.launch.py
+    - ros2 launch rplidar_ros rplidar.launch.py
+
+
+
+
 ## SLAM (put sim_time:=true for simulation and false for robot)
+
 
 
 * in the Rpi terminal
@@ -60,7 +73,7 @@ rviz2 -d src/my_bot/config/sim.rviz
 
 * in PC
 
-    - ros2 launch slam_toolbox online_async_launch.py slam_params_file:=./src/my_bot/config/mapper_params_online_async.yaml use_sim_time:=false  
+    - ros2 launch slam_toolbox online_async_launch.py slam_params_file:=./src/my_bot/config/mapper_params_online_async.yaml use_sim_time:=false
 
     - rviz2 -d src/my_bot/config/sim.rviz  ------> add map and set topic to map
 
@@ -92,7 +105,7 @@ rviz2 -d src/my_bot/config/sim.rviz
 
 * in PC
 
-    - ros2 launch slam_toolbox online_async_launch.py slam_params_file:=./src/my_bot/config/mapper_params_online_async.yaml use_sim_time:=false  
+    - ros2 launch slam_toolbox online_async_launch.py slam_params_file:=./src/my_bot/config/mapper_params_online_async.yaml use_sim_time:=false
 
     - rviz2 -d src/my_bot/config/sim.rviz ------> add 2 maps and set topics to map and global costmap
 
